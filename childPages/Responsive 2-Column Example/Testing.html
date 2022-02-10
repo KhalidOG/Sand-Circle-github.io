@@ -1,47 +1,62 @@
 <!DOCTYPE html>
+
 <html lang="en" dir="ltr">
+
   <head>
-    <!-- Used by Key Board-->
-    <meta charset="utf-8">
-
-    <title>Template Page</title>
-
-    <!-- Used by Broswer or Google Search-->
-    <meta name="author" content="KhalidOG">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <title>I'm Learning to Layout</title>
+    <!-- Layout Language is not coding with algorithms-->
+    <meta name="author" content="Mark Mercer">
+    <meta name="description" content="HTML Lessons"> <!-- Webpage Description -->
+    <meta name="keywords" content="HTML, meta data, inline CSS"> <!-- Key Words for conducting searches in Search Engines -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
 
-    <!-- meta http-equiv="default-style" content=""--> <!-- content matches css link exactly-->
+    <style>
+      * {
+        box-sizing: border-box;
+      }
 
-    <!-- Other meta attributes to be aware of -->
+      .header {
+        border: 1px solid red;
+        padding: 15px;
+      }
 
-    <!-- meta http-equiv="refresh" content="30"-->
-    <!-- Content forces a Internet Request to refresh webpage every "time value in seconds" -->
-    <!-- Use this when refreshes are needed -->
+      .menu {
+        width: 25%;
+        float: left;
+        padding: 15px;
+        border: 1px solid red;
+      }
 
-    <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
-    <!-- Already specified in the charset above-->
+      .main {
+        width: 75%;
+        float: left;
+        padding: 15px;
+        border: 1px solid red;
+      }
 
-    <style> div {border: thin dotted red;} </style>
+    </style>
 
   </head>
+
   <body>
-    <div>Sand Circle</div>
-    <header>Template Page</header>
-    <nav></nav>
-    <aside></aside>
-    <section><article></article></section>
+
+    <div class="header"><header><h1>Chania</h1></header></div>
+
+    <div class="menu">
+      <ul>
+        <li>The Flight</li>
+        <li>The City</li>
+        <li>The Island</li>
+        <li>The Food</li>
+      </ul>
+    </div>
+
+    <div class="main">
+      <h1>The City</h1>
+      <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+      <p>Resize the browser window to see how the content respond to the resizing.</p>
+    </div>
+
   </body>
-  <footer>
-    <blockquote cite= "https://www.brainyquote.com/quotes/andrew_brown_104628">
-      <!-- Date Access 202220208-->
-    </blockquote>
-    <p>
-     <strong>The Internet is so big, so powerful and pointless that for some people it is a complete substitute for life</strong>
-    <em>- <a href="https://www.brainyquote.com/quotes/andrew_brown_104628" target= "_blank"> KhalidOG</a></em>
-  </p>
-  <p>&copy KhalidOG, powered by KhalidOG in Github</p>
-  </footer>
+
 </html>

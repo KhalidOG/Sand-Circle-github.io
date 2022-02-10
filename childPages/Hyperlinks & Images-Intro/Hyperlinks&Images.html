@@ -1,47 +1,67 @@
+<!Hyperlinks
+Included in any tag but meant for anchor element: a
+Image links are also self-closing elements
+Image examples have two sources.
+These are the basic image hyperlinks. See next lesson for more.
+
+Make this in to Canadian example or QEHS Example.>
+
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <!-- Used by Key Board-->
-    <meta charset="utf-8">
-
-    <title>Template Page</title>
-
-    <!-- Used by Broswer or Google Search-->
-    <meta name="author" content="KhalidOG">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
-
-    <!-- meta http-equiv="default-style" content=""--> <!-- content matches css link exactly-->
-
-    <!-- Other meta attributes to be aware of -->
-
-    <!-- meta http-equiv="refresh" content="30"-->
-    <!-- Content forces a Internet Request to refresh webpage every "time value in seconds" -->
-    <!-- Use this when refreshes are needed -->
-
-    <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
-    <!-- Already specified in the charset above-->
-
-    <style> div {border: thin dotted red;} </style>
-
+    <title>Hyperlinks</title>
   </head>
+
   <body>
-    <div>Sand Circle</div>
-    <header>Template Page</header>
-    <nav></nav>
-    <aside></aside>
-    <section><article></article></section>
+    <h1>Basic Anchor Element</h1>
+    <a href="https://en.wikipedia.org/wiki/Brown_bear">Learn More</a>
+      <br>
+      <p>Will open in the same window, need browser nav buttons.</p>
+
+    <h1>Anchor Element with an image inside it.</h1>
+    <p>Notice, the anchor element is about the clicking,<br>
+    to the same page, opened in a new page.<br>
+    This changes the navigation properties.</p>
+    <p>The hyperlink for the image is online, thus link might break.</p>
+    <a href="#" target="_blank">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" /></a>
+
+    <p>This image is not "clickable" and comes from a folder.<br>
+    The hyperlink to the image will not break unless tranfered to a new computer.<br>
+    Called an absolute path.</p>
+    <img src="C:\Users\mmercer\Documents\Website Materials\WebsiteScripts\Essay HTML Only\Hyperlinks & Images-Intro\web101-image_brownbear.jpg" /></a>
+
+    <p>This image is not "clickable", comes from a folder, and looks exactly like the previous.<br>
+    But the source link is different. Inspect both.<br>
+    What is different? What do you think the code is doing?<br>
+    This hyperlink will not break when tranfered to a new computer.<br>
+    Called a relative path.</p>
+    <img src="web101-image_brownbear.jpg" /></a>
+
   </body>
-  <footer>
-    <blockquote cite= "https://www.brainyquote.com/quotes/andrew_brown_104628">
-      <!-- Date Access 202220208-->
-    </blockquote>
-    <p>
-     <strong>The Internet is so big, so powerful and pointless that for some people it is a complete substitute for life</strong>
-    <em>- <a href="https://www.brainyquote.com/quotes/andrew_brown_104628" target= "_blank"> KhalidOG</a></em>
-  </p>
-  <p>&copy KhalidOG, powered by KhalidOG in Github</p>
-  </footer>
 </html>
+
+<!Showing hyperlinks for these (will need some organization)
+Rightclick for
+- hyperlink address
+- image address
+>
+
+<!Having everything in one file illustrates need for file organization and naming, or using the search bar.
+- Code looks in the imediate folder for other documents for the correct name.
+- Similar to processing>
+
+<!Other notes
+Why keep users on page by opening other page?
+- Readability & Navigation
+- Other reasons: It keeps visitors on your site longer and
+  improves most of your metrics: bounce rate, conversion, pages visited.
+
+See: http://html.com/attributes/a-target/>
+
+<!Other Targets possible
+(from html.com/attributes/a-target)
+•	hreflang: specifies language of linked resource
+•	download: instead of opening it in a window, download the resource
+•	title: defines the title of a link, which appears to the user as a tooltip
+>
