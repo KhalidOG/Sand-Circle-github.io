@@ -4,12 +4,12 @@
     <!-- Used by Key Board-->
     <meta charset="utf-8">
 
-    <title>Template Page</title>
+    <title>Flexbox</title>
 
     <!-- Used by Broswer or Google Search-->
     <meta name="author" content="KhalidOG">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Flexbox & Sematic Tags">
+    <meta name="keywords" content="Flexbox">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
 
@@ -24,12 +24,30 @@
     <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
     <!-- Already specified in the charset above-->
 
-    <style> div {border: thin dotted red;} </style>
+    <style>
+      div {border: thin dotted red;}
+      * { box-sizing: border-box;}
+      .header {
+        border: 1px solid red;
+        padding: 15px;
+      }
+      .menu {
+        width: 25%;
+        float: left;
+        padding: 15px;
+        border: 1px solid red;
+      }
+      .main {
+        width: 75%;
+        float: left;
+        padding: 15px;
+        border: 1px solid red
+      }
+    </style>
 
   </head>
   <body>
-    <div>Sand Circle</div>
-    <header>Template Page</header>
+    <header>Flexbox: INDEX as a Flexbox</header>
     <nav></nav>
     <aside></aside>
     <section><article></article></section>
